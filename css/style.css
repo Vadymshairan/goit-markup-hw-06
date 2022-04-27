@@ -774,13 +774,16 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 448px;
   margin-bottom: 10px;
 
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
+}
+
+.form-field-wrapper {
+  margin: 0;
   color: var(--title-text-color);
 }
 
@@ -818,32 +821,31 @@ img {
 
 .checkbox-icon {
   position: absolute;
-  top: 3px;
+  top: 4px;
   left: 12px;
 
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);
-  border-radius: 4px;
+  border-radius: 2px;
 
   fill: transparent;
 }
 
-textarea {
+.form-input::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-}
-
-.form-label {
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-input {
   padding: 12px 16px 12px 40px;
   margin-top: 4px;
+  width: 100%;
 
   color: var(--title-text-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
