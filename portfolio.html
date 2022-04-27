@@ -260,20 +260,29 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container footer-position">
+        <!-- Логотип и Адресы -->
         <div class="footer-container">
           <a href="./index.html" class="logo logo-ft">Web<span class="logo-footer">Studio</span></a>
           <address>
             <ul class="contacts contacts-footer list">
               <li class="footer-item">
-                <a href="https://goo.gl/maps/wtgL4qWBJrjaeM2FA" target="_blank" class="footer-address actual">г. Киев, пр-т
-                  Леси Украинки, 26</a>
+                <a
+                  href="https://goo.gl/maps/wtgL4qWBJrjaeM2FA"
+                  target="_blank"
+                  class="footer-address actual"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
               </li>
-              <li class="footer-item"><a href="mailto:info@devstudio.com" class="footer-address">info@devstudio.com</a></li>
-              <li class="footer-item"><a href="tel:+380961111111" class="footer-address">+380961111111</a></li>
+              <li class="footer-item">
+                <a href="mailto:info@devstudio.com" class="footer-address">info@devstudio.com</a>
+              </li>
+              <li class="footer-item">
+                <a href="tel:+380961111111" class="footer-address">+380961111111</a>
+              </li>
             </ul>
           </address>
         </div>
-    
+        <!-- Блок Соцсетей -->
         <div class="social">
           <h3 class="footer-title">присоединяйтесь</h3>
           <ul class="social-list list">
@@ -307,6 +316,26 @@
             </li>
           </ul>
         </div>
+        <!-- Форма Подписки -->
+        <form class="footer-form">
+          <label class="footer-form-field">
+            Подпишитесь на рассылку
+            <input
+              class="footer-form-input"
+              type="email"
+              name="mail"
+              placeholder="E-mail"
+              required
+            />
+          </label>
+
+          <button type="submit" class="hero-button footer-button">
+            Подписаться<span class="footer-button-icon"
+              ><svg class="" width="24" height="24">
+                <use href="./images/icons.svg#send"></use></svg
+            ></span>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
