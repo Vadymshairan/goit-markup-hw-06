@@ -869,5 +869,5 @@ textarea {
 
 .form-link {
   color: var(--accent-color);
-  border-radius: 1px;
+  /* border-radius: 1px; */
 }
